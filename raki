@@ -1,0 +1,15 @@
+from matplotlib import pyplot as plt
+from matplotlib import style
+style.use('ggplot')
+x=[10,15,20,25,30]
+y=[]
+for i in range(len(x)):
+    a=x[i]*x[i]
+    y.append(x)
+fig=plt.figure()
+plt.fig(x,y,'d',lable='Bubble sort',linewidth=2)
+plt.title('Bubble sort-worst time complexty')
+plt.legend()
+plt.xlable('o(n^2)')
+plt.ylable('n')
+plt.show()
